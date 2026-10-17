@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 這是註解-->
+
+    <a href="https://www.kcis.ntpc.edu.tw/" target="_blank">康橋官網</a>
+    <a href="about.html">關於這個網站</a>
+
+    <table border="1">
+        <tr>
+            <th>作業</th>
+            <th>科目</th>
+            <th>期限</th>
+        </tr>
+        <tr>
+            <td>edpuzzle</td>
+            <td>PE</td>
+            <td>10/20</td>
+        </tr>
+        <tr>
+            <td>數學習作</td>
+            <td>數學</td>
+            <td>10/21</td>
+        </tr>
+        <tr>
+            <td>英文單字複習</td>
+            <td>英文</td>
+            <td>10/22</td>
+        </tr>
+        <tr>
+            <td>自然課本閱讀</td>
+            <td>自然</td>
+            <td>10/23</td>
+        </tr>
+        <tr>
+            <td>歷史學習單</td>
+            <td>歷史</td>
+            <td>10/24</td>
+        </tr>
+
+    </table>
+
+    <form>
+        <p>
+            <label for="title">作業名稱</label>
+            <input type="text" id="title" name="work_name" placeholder="例如:數學習作 p.25" required>
+        </p>
+        <p>
+            <label for="subject">科目</label>
+            <select id="subject" name="category">
+                <option>國文</option>
+                <option>英文</option>
+                <option>數學</option>
+            </select>
+        </p>
+        <p>
+            <label for="due">繳交日期</label>
+            <input type="date" id="due" name="due">
+        </p>
+        <p>
+            <label for="note">備註</label>
+            <textarea id="note" name="note" rows="3"></textarea>
+        </p>
+        <button type="submit">新增作業</button>
+    </form>
+
+
+
+</body>
+
+</html>
